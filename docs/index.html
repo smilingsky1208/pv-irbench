@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PV-IRBench · 光伏红外缺陷检测的可信度评测基准</title>
+<style>
+:root{
+  --bg:#ffffff; --surface:#f7f7f5; --line:#e3e2dd;
+  --text:#1c1c1a; --muted:#5f5e5a; --hint:#888780;
+  --accent:#0f6e56; --warn:#854f0b; --blue:#185fa5;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{
+  background:var(--bg); color:var(--text);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:15px; line-height:1.75; padding:0 20px;
+}
+.wrap{max-width:760px;margin:0 auto;padding:56px 0 80px}
+h1{font-size:26px;font-weight:500;letter-spacing:-0.01em;margin-bottom:10px}
+h2{font-size:19px;font-weight:500;margin:44px 0 14px;padding-top:20px;border-top:1px solid var(--line)}
+h3{font-size:16px;font-weight:500;margin:24px 0 8px}
+p{margin-bottom:14px}
+.lede{font-size:17px;color:var(--muted);margin-bottom:6px}
+.tag{display:inline-block;font-size:13px;color:var(--hint);border:1px solid var(--line);
+  border-radius:20px;padding:2px 12px;margin-right:8px;margin-bottom:14px}
+.claim{background:var(--surface);border-left:3px solid var(--accent);
+  border-radius:0 8px 8px 0;padding:16px 20px;margin:20px 0;font-size:16px}
+table{width:100%;border-collapse:collapse;margin:16px 0;font-size:14px}
+th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line)}
+th{font-weight:500;color:var(--muted);background:var(--surface)}
+td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+ul,ol{margin:0 0 16px 22px}
+li{margin-bottom:7px}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;
+  background:var(--surface);padding:1px 6px;border-radius:4px}
+pre{background:var(--surface);border-radius:8px;padding:14px 16px;overflow-x:auto;
+  margin:14px 0;font-size:13px;line-height:1.6}
+.note{font-size:13.5px;color:var(--muted);border:1px solid var(--line);
+  border-radius:8px;padding:14px 18px;margin:18px 0}
+.note strong{color:var(--warn)}
+.hl{color:var(--accent);font-weight:500}
+footer{margin-top:48px;padding-top:20px;border-top:1px solid var(--line);
+  font-size:13px;color:var(--hint);line-height:1.9}
+footer a{color:var(--muted);text-decoration:none;border-bottom:1px solid var(--line)}
+@media(max-width:600px){body{font-size:14.5px}.wrap{padding:36px 0 60px}h1{font-size:22px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<span class="tag">v0.1</span><span class="tag">2026-11-01</span><span class="tag">首个基线已发布</span>
+
+<h1>PV-IRBench</h1>
+<p class="lede">光伏红外缺陷检测的<strong>可信度评测基准</strong></p>
+
+<div class="claim">
+行业里所有人都在声称「准确率 95%」，但没有任何一把尺子能验证它。<br>
+<strong>PV-IRBench 就是那把尺子。</strong>
+</div>
+
+<p>我们不训练最强的检测模型。我们做的是：定义一套能回答「这个模型能不能上工」的指标，
+并把它开源出来，让任何人的声明都可以被复算。</p>
+
+<h2>三个真实存在的问题</h2>
+
+<h3>一、mAP 不是运维要的指标</h3>
+<ul>
+<li><strong>它对负样本不敏感</strong>——一个在正常组件上疯狂误报的模型，mAP 依然可以很高。而误报意味着派人白跑一趟。</li>
+<li><strong>它平等对待所有类别</strong>——漏检一个可能引发火灾的组串开路故障，和漏检一个轻微热斑，在 mAP 里损失相同。</li>
+<li><strong>它不反映定位是否可用</strong>——框错到隔壁组件，IoU 仍可能达标，但报告作废。</li>
+</ul>
+
+<h3>二、各家的数字根本不可比</h3>
+<p>我们实测到：同一个模型，同域数据上图像级召回 <span class="hl">97.44%</span>，
+在另一个公开数据集上只有 <span class="hl">0.10%</span>——相差近千倍。</p>
+<table>
+<tr><th></th><th>自有验证集</th><th>InfraredSolarModules</th></tr>
+<tr><td>图像尺寸</td><td>640×640</td><td><strong>40×24</strong></td></tr>
+<tr><td>标注粒度</td><td>框级</td><td>图像级</td></tr>
+<tr><td>类别体系</td><td>4 类</td><td>11 类异常</td></tr>
+</table>
+<p>尺度相差 <strong>16–26 倍</strong>。在这种情况下，任何「我们比他们高 5 个百分点」的说法都没有意义。</p>
+
+<h3>三、没人能测量假警报率</h3>
+<p>多数公开数据集与竞赛榜单<strong>不含足量纯负样本</strong>，因此 FAR 根本无法测量。
+这就是「95% 准确率」永远无法被验证的原因。PV-IRBench 验证集负样本占比 <strong>30%（151/503）</strong>。</p>
+
+<h2>首个基线结果</h2>
+<p>权重 <code>runs/final/best.pt</code>，验证集 503 张（含正常组件 151 张）。</p>
+<table>
+<tr><th>conf</th><th class="num">FAR</th><th class="num">每千块误报框</th><th class="num">图像级召回</th><th class="num">StringFault</th></tr>
+<tr><td>0.25</td><td class="num">0.00%</td><td class="num">0.0</td><td class="num">93.47%</td><td class="num">56.2%</td></tr>
+<tr><td><strong>0.10 ✓</strong></td><td class="num"><strong>0.00%</strong></td><td class="num"><strong>0.0</strong></td><td class="num"><strong>97.44%</strong></td><td class="num"><strong>84.4%</strong></td></tr>
+<tr><td>0.05</td><td class="num">0.66%</td><td class="num">6.6</td><td class="num">97.73%</td><td class="num">84.4%</td></tr>
+<tr><td>0.01</td><td class="num">2.65%</td><td class="num">33.1</td><td class="num">98.86%</td><td class="num">90.6%</td></tr>
+</table>
+<p>单看一个 mAP 数值，永远发现不了：<strong>把阈值从 0.25 降到 0.10，最弱类别召回提升 28.2 个百分点，而假警报率代价为零。</strong></p>
+
+<h3>另一个发现：框级指标低估可用性</h3>
+<p>StringFault 的 mAP50-95 只有 0.407，看似很差；但在 conf=0.10 下图像级召回达 <strong>84.4%</strong>。
+说明模型「知道这块板有问题」的能力，远强于「精确指出问题在哪」的能力——
+而运维筛查阶段只需要前者。</p>
+
+<h2>六个运维可用性指标</h2>
+<table>
+<tr><th>指标</th><th>回答的问题</th></tr>
+<tr><td><strong>FAR</strong> 假警报率</td><td>会不会派冤枉工？</td></tr>
+<tr><td><strong>wMR</strong> 严重度加权漏检率</td><td>会不会漏掉要命的？</td></tr>
+<tr><td><strong>LA</strong> 定位准确率</td><td>找不找得到那块板？</td></tr>
+<tr><td><strong>ΔT-MAE</strong> 温差回归误差</td><td>有多严重、要不要现在处理？</td></tr>
+<tr><td><strong>CS</strong> 跨条件稳定性</td><td>换个条件还准吗？</td></tr>
+<tr><td><strong>LSR</strong> 源图泄漏率</td><td>上面这些数能信吗？（前提）</td></tr>
+</table>
+<p>完整定义见 <code>docs/metrics.md</code>，分层评测协议见 <code>docs/protocol.md</code>。</p>
+
+<h2>使用</h2>
+<p>评测脚本与训练框架解耦——只要你的模型能对一批图片输出检测结果，就能算指标。</p>
+<pre>python benchmark/eval_far.py --source own \
+  --data &lt;数据集根&gt;/solar_panel_v3_clean --split valid \
+  --weights your_model.pt --conf 0.10
+
+# 扫描多阈值，生成 FAR-召回权衡曲线
+python benchmark/eval_far.py --source own --data &lt;数据集根&gt; --sweep</pre>
+
+<h2>边界声明</h2>
+<div class="note">
+<strong>为避免误用，明确以下边界：</strong><br>
+· 同域结果不等于真实电站表现<br>
+· 图像级指标不代表定位精度<br>
+· 不主张跨数据集的横向对比<br>
+· 不具备 CMA/CNAS 资质，产出的是<strong>算法评测结果</strong>，不是具有法律效力的检测报告
+</div>
+
+<h2>许可</h2>
+<p>代码 <strong>AGPL-3.0-or-later</strong>；文档、指标定义与评测协议 <strong>CC BY 4.0</strong>。
+指标定义采用宽松许可是刻意的——我们希望整个行业都来用这套尺子，包括商业公司。</p>
+
+<h2>参与</h2>
+<p>如果你在做光伏 AI 巡检，想知道自己宣称的指标能不能被复算——
+我们提供<strong>免费评测（首批三家）</strong>，条件是允许署名引用评测范围。</p>
+<p>联系：<a href="mailto:728638770@qq.com">728638770@qq.com</a>（邮件标题注明「PV-IRBench 评测」）</p>
+
+<footer>
+PV-IRBench v0.1 · 光驭智检 PV-Inspect AI · 2026<br>
+湖南大学 · 机器人视觉感知与控制技术国家工程研究中心<br>
+代码仓库 <a href="https://github.com/smilingsky1208/pv-irbench">github.com/smilingsky1208/pv-irbench</a>
+　联系 <a href="mailto:728638770@qq.com">728638770@qq.com</a>
+</footer>
+
+</div>
+</body>
+</html>

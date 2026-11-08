@@ -1,0 +1,44 @@
+{
+  "FAR": 0.0,
+  "fp_boxes_per_1000": 0.0,
+  "image_level_recall": 0.9744,
+  "negative": {
+    "total": 151,
+    "fp": 0,
+    "tn": 151
+  },
+  "positive": {
+    "total": 352,
+    "hit": 343,
+    "miss": 9
+  },
+  "per_class": {
+    "HotSpot": {
+      "total": 154,
+      "hit": 152,
+      "miss": 2,
+      "recall": 0.987
+    },
+    "ByPassed": {
+      "total": 101,
+      "hit": 100,
+      "miss": 1,
+      "recall": 0.9901
+    },
+    "Diode": {
+      "total": 65,
+      "hit": 64,
+      "miss": 1,
+      "recall": 0.9846
+    },
+    "StringFault": {
+      "total": 32,
+      "hit": 27,
+      "miss": 5,
+      "recall": 0.8438
+    }
+  },
+  "conf": 0.1,
+  "dataset": "solar_panel_v3_clean/valid",
+  "n_samples": 503
+}
