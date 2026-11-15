@@ -17,6 +17,7 @@ th{background:#f4f4f2;font-weight:600}
 hr{border:none;border-top:1px solid #e3e2dd;margin:32px 0}
 strong{font-weight:700}
 code{background:#f4f4f2;padding:1px 5px;border-radius:3px;font-size:14px}
+a{color:#185FA5;text-decoration:underline}
 .meta{color:#666;font-size:14px;margin-bottom:24px}
 </style>
 </head>
@@ -46,6 +47,8 @@ code{background:#f4f4f2;padding:1px 5px;border-radius:3px;font-size:14px}
 <p><strong>0.835 → 0.63。差了 0.2。</strong></p>
 
 <p>我把这个结果写进了材料，并在答辩时主动说明。这不是什么值得炫耀的事，但我想把它讲出来，因为后面发生的事比这个数字本身有意思得多。</p>
+
+<p style="padding:12px 16px;background:#f2f7fc;border-left:3px solid #85B7EB;color:#333;font-size:15px">文中所有数字都可复核：完整指标定义、分层评测协议与 FAR 复算脚本已开源在 <a href="https://smilingsky1208.github.io/pv-irbench/">PV-IRBench 项目主页</a>。</p>
 
 <hr>
 
@@ -93,6 +96,8 @@ code{background:#f4f4f2;padding:1px 5px;border-radius:3px;font-size:14px}
 <tr><td>0.05</td><td>0.66%</td><td>6.6</td><td>97.73%</td><td>84.4%</td></tr>
 <tr><td>0.01</td><td>2.65%</td><td>33.1</td><td>98.86%</td><td>90.6%</td></tr>
 </table>
+
+<p><em>完整阈值扫描详单与 FAR 评测脚本在 <a href="https://github.com/smilingsky1208/pv-irbench">GitHub 仓库</a>，可以逐项复核——这张表不是选出来的，是全量扫出来的。</em></p>
 
 <p><strong>这张表让我愣了一下。</strong></p>
 
@@ -159,13 +164,16 @@ code{background:#f4f4f2;padding:1px 5px;border-radius:3px;font-size:14px}
 
 <hr>
 
-<p><strong>如果你在做光伏 AI 巡检，想知道自己宣称的指标到底能不能复算出来——欢迎联系我，首批三家免费。</strong><br>
-（条件是允许我在案例清单里署名引用评测范围，不含缺陷细节与敏感数据。）</p>
+<p><strong>如果你在做光伏 AI 巡检，想知道自己宣称的指标到底能不能复算出来——欢迎联系我，首批三家免费。</strong></p>
+
+<p>具体怎么做：发一封邮件到 <strong>728638770@qq.com</strong>，主题写「指标复算」，正文只需三样东西——① 你们现在宣称的指标数值和对应的数据集；② 验证时的置信度阈值（如果没记录，直接说不知道也行，这本身就是结果的一部分）；③ 图像大致数量与采集条件。不需要提供原始数据：我们先用公开的评测协议对齐口径，确认可测后再谈数据交付方式。</p>
+
+<p>首批免费的条件只有一个：允许我在案例清单里署名引用评测范围，<strong>不含缺陷细节与敏感数据</strong>。</p>
 
 <ul>
-<li>项目主页：https://smilingsky1208.github.io/pv-irbench/</li>
-<li>代码仓库：https://github.com/smilingsky1208/pv-irbench</li>
-<li>联系邮箱：728638770@qq.com</li>
+<li><a href="https://smilingsky1208.github.io/pv-irbench/">项目主页：六项指标定义、分层评测协议与首个基线结果</a></li>
+<li><a href="https://github.com/smilingsky1208/pv-irbench">代码仓库：FAR 评测脚本与全部结果详单（AGPL-3.0）</a></li>
+<li>联系邮箱：<a href="mailto:728638770@qq.com">728638770@qq.com</a></li>
 </ul>
 
 <hr>
