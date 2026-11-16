@@ -1,0 +1,504 @@
+﻿image,ground_truth,n_boxes
+0raw_data_total_dataset_DJI_20230809115641_0004_T_jpg.rf.9bb957a3d9305cda271437cf80d2d6ae.jpg,HotSpot,6
+0raw_data_total_dataset_DJI_20230809115644_0005_T_jpg.rf.1c0b9bb11ffa0e689243de307e358260.jpg,HotSpot,5
+0raw_data_total_dataset_DJI_20230809115909_0006_T_jpg.rf.496aa274c335d5a336a314e127e2a5fa.jpg,ByPassed,1
+0raw_data_total_dataset_DJI_20230809120130_0017_T_jpg.rf.8adf5fb7be345d7faadf47a7f7239a06.jpg,ByPassed,1
+1003_jpg.rf.90b2a32cbedbe998956af561fb5de1bc.jpg,HotSpot,2
+101MEDIA_DJI_0197_T_JPG_jpg.rf.14a614a870c515a925234c85d9f7b149.jpg,HotSpot,1
+101MEDIA_DJI_0203_T_JPG_jpg.rf.2ab485252da08b78be6d11fd8c13f386.jpg,ByPassed,1
+101MEDIA_DJI_0259_T_JPG_jpg.rf.618f34af3ceb2a70f09d2698b8ea7301.jpg,HotSpot,1
+101MEDIA_DJI_0353_T_JPG_jpg.rf.0241e338d8bc7d1b01fab938351b5ee9.jpg,Diode,1
+101MEDIA_DJI_0467_T_JPG_jpg.rf.58238324ff157171809534c67ae4c04a.jpg,ByPassed,1
+1097_jpg.rf.97b2191a4c2d1ade1938649d76f6ff62.jpg,HotSpot,3
+1132_jpg.rf.ce94953d7135d3bf4a243ff2361e3ca7.jpg,ByPassed,2
+1266_jpg.rf.943acd8af8a66378d58b7209d132d8e9.jpg,Diode,2
+1295_jpg.rf.f816cca038dd55e406f4a02e45bba5f9.jpg,ByPassed,1
+1376_jpg.rf.a3f377b45467602e46236536ae822813.jpg,ByPassed,2
+13936403-DJI_0064_R_JPG_jpg.rf.247cb4801bcd85a184baa9551be742ad.jpg,ByPassed,2
+13936407-DJI_0188_R_JPG_jpg.rf.b3dcb226280be770113cd51a48bf5f94.jpg,ByPassed,1
+13936448-DJI_0483_R_JPG_jpg.rf.50ead71e46fae035a1471bd3c3b99345.jpg,ByPassed,1
+13936456-DJI_0807_R_JPG_jpg.rf.3725d4debc3afae788a42a4b12bf1f47.jpg,ByPassed,2
+13936463-DJI_0891_R_JPG_jpg.rf.26308660d9cbead73306f892f2af530c.jpg,ByPassed,2
+1523_jpg.rf.e98411e889b50c95b744542c23d422f3.jpg,StringFault,1
+1551866739878_jpg.rf.17184b7a5591506d2cb8c75737bc36ea.jpg,HotSpot,6
+1593_jpg.rf.32893ff152ff4c74243deab5e87bc6f8.jpg,Diode,4
+1635_jpg.rf.d2f747fae949955e90bd5948889858f1.jpg,Diode,2
+1636_jpg.rf.99c59cbf92c73764cb763a1a0e2bfe67.jpg,Diode,3
+163_jpg.rf.fc503c3d2a0d96468c569571ed4b13a0.jpg,HotSpot,7
+1750_23_0_jpg.rf.598bb581bccbde68efae57fd39aa3da8.jpg,ByPassed,1
+1750_291_0_jpg.rf.49ed52dba610c57d2867942ffa3d1c5f.jpg,ByPassed,4
+1750_294_2_jpg.rf.0df4e336e4398df20ca2a28b4d22c29e.jpg,StringFault,1
+1750_359_1_jpg.rf.a1e521fa7bebee3f1f230798b1aac1b0.jpg,HotSpot,3
+1750_434_0_jpg.rf.34f8ce81820c84ff6e5f1eaa16c16822.jpg,StringFault,1
+1750_631_1_jpg.rf.fd986ba9dabbb1c81bd384eccf672d17.jpg,Diode,1
+1750_753_1_jpg.rf.b80a45cbe78d8750245cb382008b52f6.jpg,HotSpot,3
+1754_jpg.rf.8311bead58be8a398cf4f94ddd96b972.jpg,ByPassed,5
+1801_jpg.rf.56388789d2eee48f6992d0ecee5db454.jpg,ByPassed,2
+1802_jpg.rf.398aca65117f6dabc63363eeec220776.jpg,ByPassed,2
+1898_jpg.rf.4a8d41a1ec513b821b51765947b9fa5f.jpg,Diode,6
+1939_jpg.rf.79e145b5e52ca94a286922df71e712c6.jpg,Diode,1
+2095_jpg.rf.56da1f63b99832abf55d41f3c5fda257.jpg,HotSpot,2
+2112_jpg.rf.3ae4e0d61519e6e4a2ff44e32a423a58.jpg,HotSpot,2
+2206_jpg.rf.4ea3fa309e7c039cf09a870c7f581259.jpg,HotSpot,7
+233_jpg.rf.4212ea9a36cf64c7f35bcc6f0b49cda9.jpg,Diode,2
+2379_jpg.rf.7476a631646c3c02f20b75a56ef29494.jpg,HotSpot,5
+281_jpg.rf.984d83800772d6c0dbb8cf91c337c5b2.jpg,Diode,3
+293_jpg.rf.3ea5f459821b7dfdd0273b568ce9f080.jpg,Diode,1
+295_jpg.rf.dcf38e135f606303984046fae1843131.jpg,Diode,3
+310_jpg.rf.f74b42fca402073cbfca415ad129dcc5.jpg,Diode,2
+311_jpg.rf.7c011565789f589af44597844c93efa4.jpg,ByPassed,1
+315_jpg.rf.da0a85bf99a6ee44cc5668224eb8577c.jpg,Diode,1
+315_jpg.rf.e82acebe7e705d0329b19b2549e2aa28.jpg,Diode,2
+32_jpg.rf.43c9232a8c03eeb8e9e3142cf4e221d9.jpg,HotSpot,5
+335_jpg.rf.014841fdb5c44185bccc026d680079ad.jpg,Diode,2
+39_jpg.rf.68bf4d1491324d4dfa240fec8531bbc5.jpg,ByPassed,2
+4053_jpg.rf.e9d743feb6011c462ab1340a18d002f5.jpg,HotSpot,1
+407_jpg.rf.2505338241f753a0f754100f6bb5bc46.jpg,ByPassed,2
+4081_jpg.rf.f72fed3ed2f43184010fd82ef67529f0.jpg,HotSpot,3
+412_jpg.rf.0cfc50fb860ceabb5d39af43971d9c86.jpg,Diode,1
+4204_jpg.rf.680b4e93e78ec9b60a69158e76c02400.jpg,HotSpot,5
+4299_jpg.rf.76e9bac0f4df42351747a1125343e529.jpg,HotSpot,1
+4417_jpg.rf.b05c0826b664b78d072aa8615950336c.jpg,HotSpot,4
+4423_jpg.rf.38ebdb97e0195c19ec3f6976a0d68b4f.jpg,HotSpot,1
+4423_jpg.rf.718ed389408e257438e27dd2f20328e8.jpg,HotSpot,1
+480_jpg.rf.c662440467fe28b48f9cee7f5c2936f0.jpg,HotSpot,3
+486_jpg.rf.bfaafb74f2a9f3e6bd67aa5e2366a629.jpg,HotSpot,5
+8336_jpg.rf.11f74f2d77b49eebdd4590e7a1e5510a.jpg,HotSpot,2
+8961_jpg.rf.28e8daf93bb87f8d825ec6e7b887586b.jpg,HotSpot,3
+Activated-Bypass-Diode-1-_jpeg_jpg.rf.0d9fa773bf49ad5818949ca2dde14d0c.jpg,ByPassed,3
+Captura-de-Tela-22-_png_jpg.rf.9bd1f99c98c5f4d1f8106976e75affbe.jpg,StringFault,7
+dfsdfsdf_jpg.rf.ed146deb1667f79c89dfa07235a090fa.jpg,Diode,10
+dgtsry_jpg.rf.0d4b8b09c88af5f06f601f6ba3c6d8e9.jpg,HotSpot,5
+DJI_0017_R-JPG_jpg.rf.8265cde64e7092c23520d144fd54219c.jpg,ByPassed,1
+DJI_0019_R-2-_JPG_jpg.rf.cea9972f8e198d367f16ed1928a37d0c.jpg,HotSpot,9
+DJI_0031_R-2-_JPG_jpg.rf.e36cedd044c639fa784efacce162b47a.jpg,ByPassed,1
+DJI_0039_R-JPG_5_png_jpg.rf.3eca8c6e00f822653a711ddc012a8632.jpg,StringFault,1
+DJI_0039_R-JPG_5_png_jpg.rf.f0846c524ce4ff02bb78c7e7088dc474.jpg,HotSpot,2
+DJI_0045_R-JPG_5_png_jpg.rf.30b1bd386e7da51a4e5cfbac396e543a.jpg,HotSpot,1
+DJI_0061_T_JPG_jpg.rf.687b129392fe4de0b3e8bbbf0231b2bc.jpg,Diode,1
+DJI_0065_T_JPG_jpg.rf.316e202e313b557f9b3fa7799622ff7f.jpg,HotSpot,2
+DJI_0076_T_JPG_jpg.rf.64c4789c63edf7b6a892883e7e47296a.jpg,ByPassed,4
+DJI_0086_T_JPG_jpg.rf.e4d9e5151c679f82668605b8a4ca84d3.jpg,Diode,2
+DJI_0087_T_JPG_jpg.rf.6bd5159125f82001bb5bc6366135bd50.jpg,HotSpot,3
+DJI_0108_T_JPG_jpg.rf.3118921635b4b0811330fddfb495be1c.jpg,Diode,1
+DJI_0122_R_JPG_jpg.rf.3fdec45babc57a01217f18545dcb103b.jpg,ByPassed,1
+DJI_0128_T_JPG_jpg.rf.6da07cd646c5a6eb17ebc9dac9001c17.jpg,Diode,1
+DJI_0143_T_JPG_jpg.rf.1e93b5d512b509b5bf63c1350eb69837.jpg,Diode,13
+DJI_0196_T_JPG_jpg.rf.416e915fa7c09a0f8d259529e074ca3b.jpg,ByPassed,3
+DJI_0201_R-3-_JPG_jpg.rf.f91e4835288132a29e3e940025fa80c4.jpg,ByPassed,1
+DJI_0203_R_JPG_jpg.rf.289178ee09e6bb55f029626001749562.jpg,HotSpot,1
+DJI_0210_T_JPG_jpg.rf.d21861b551857597a5c5cb81d16b6888.jpg,ByPassed,8
+DJI_0211_T_JPG_jpg.rf.b1681e8c0f2ddb0a5d56f19ba4ea3877.jpg,HotSpot,4
+DJI_0225_T_JPG_jpg.rf.6a52e51e99a5efd6e60e881316516d1c.jpg,ByPassed,12
+DJI_0284_R-2-_JPG_jpg.rf.3d058cd4d7451ea8cd4976e836314eb8.jpg,ByPassed,1
+DJI_0286_R_JPG_jpg.rf.7edaf8f2781a69a14545bdaf82160c37.jpg,ByPassed,2
+DJI_0292_R_JPG_jpg.rf.2c34cb1074945168bda49cd869e97b3c.jpg,HotSpot,1
+DJI_0294_R-2-_JPG_jpg.rf.5cd8667abd0584850c0180ae7eb32524.jpg,ByPassed,1
+DJI_0307_T_JPG_jpg.rf.303a5f457e762d4ff188a3df30b53e1f.jpg,HotSpot,1
+DJI_0335_R_JPG_jpg.rf.2a8b1b3446f78b007455bc1b28566043.jpg,StringFault,1
+DJI_0344_T_JPG_jpg.rf.573886268983d3dd373b13525bbf0bc3.jpg,ByPassed,6
+DJI_0350_T_JPG_jpg.rf.e88c8e8c0c5597ed495cf03c57f18517.jpg,ByPassed,7
+DJI_0404_R_JPG_jpg.rf.226b8791cf791b012df789b9721edeba.jpg,ByPassed,3
+DJI_0423_T_JPG_jpg.rf.dcf65ca88cd11bdcc27c414485164176.jpg,ByPassed,5
+DJI_0438_T_JPG_jpg.rf.526915bc77afaa44ddc56e5faf273805.jpg,ByPassed,2
+DJI_0442_T_JPG_jpg.rf.9814dbc8e9b9b44a66e767b0541e9d2d.jpg,ByPassed,2
+DJI_0442_T_JPG_jpg.rf.d401fcfffada680ff8706f6ee06bfa10.jpg,HotSpot,8
+DJI_0560_T_JPG_jpg.rf.080be358b6a661ac74f289c19f6acc69.jpg,HotSpot,19
+DJI_0566_T_JPG_jpg.rf.17413fdaaa3ce9e768d1ec7b18b667c2.jpg,HotSpot,15
+DJI_0580_T_JPG_jpg.rf.cb11efb4cf0365419ecc7b48c8174de2.jpg,HotSpot,1
+DJI_0593_R_JPG_jpg.rf.4ca82249468ebd34e8a4954db528a330.jpg,HotSpot,2
+DJI_0656_T_JPG_jpg.rf.fb8a66c7eb68da4e4becba85648d2ddb.jpg,HotSpot,13
+DJI_0661_R-JPG_jpg.rf.37f8c635a854b3e83394cce6a94e4f48.jpg,HotSpot,4
+DJI_0678_R_JPG_jpg.rf.aba7d739487c0f94ba6af0de377682c1.jpg,HotSpot,1
+DJI_0706_R-JPG_jpg.rf.cee301dc820d2181d6c844f4add7b7ac.jpg,ByPassed,5
+DJI_0722_T_JPG_jpg.rf.61e951702c902f542705f7acae104939.jpg,ByPassed,3
+DJI_0730_R-JPG_jpg.rf.c7536852eb025f021a0f8912b583f000.jpg,ByPassed,2
+DJI_0760_R_JPG_jpg.rf.7bd4063e0fb2473924841961d63b9808.jpg,ByPassed,2
+DJI_0770_R_JPG_jpg.rf.2b707ac04b424ccf3056af5b76fc330a.jpg,ByPassed,1
+DJI_0792_R-JPG_5_png_jpg.rf.a243cc1c6208b78efbcbe5d44a17d949.jpg,StringFault,3
+DJI_0859_R_JPG_jpg.rf.3f6774ba9511e203fe55e5969218e064.jpg,HotSpot,1
+DJI_0870_T_JPG_jpg.rf.a7c95104708ce468087b08ad2a9b390c.jpg,ByPassed,4
+DJI_0880_T_JPG_jpg.rf.fb2c01e50b455369a860bf10ec6a0925.jpg,HotSpot,1
+DJI_0889_R_JPG_jpg.rf.7d4614775b0364d706b33e2234b6a26f.jpg,ByPassed,2
+DJI_0896_R_JPG_jpg.rf.7e9f8a9517f32bd5b5be56594f96db06.jpg,HotSpot,5
+DJI_0904_T_JPG_jpg.rf.f5dccc8ea232236a84948c1ced6ad1c8.jpg,ByPassed,3
+DJI_0931_R_JPG_jpg.rf.4452b927ae8c14522256180ac7763fb4.jpg,ByPassed,1
+DJI_0985_R_JPG_jpg.rf.b9d9da23064b08d8d266a8d838c9b222.jpg,ByPassed,1
+DJI_0989_T_JPG_jpg.rf.d9f814a500b63faf19dba0b5c5e31c38.jpg,ByPassed,2
+DJI_1_MK-819-_jpg.rf.db39c240aa40622330530b46a88d2bf5.jpg,ByPassed,1
+DJI_20210719113917_0136_T_JPG_jpg.rf.3d77c4568387094e31e3a1001e4ec995.jpg,HotSpot,1
+DJI_20210719132351_0325_T-1-_JPG_jpg.rf.d496da21485e4e0be6e77717fa366b19.jpg,Diode,2
+DJI_20210719132351_0325_T_JPG_jpg.rf.848dd2320784d0a976fdc0496f0472b0.jpg,Diode,5
+DJI_20210720111704_0255_T_jpg.rf.bed15a9112225ed122a2a6b7633d7140.jpg,ByPassed,1
+DJI_20210720115559_0331_T_JPG_jpg.rf.a4ba6a50101ef62125e2ffd32fc8371f.jpg,HotSpot,1
+DJI_20210720134804_0135_T_JPG_jpg.rf.391957837da2f6dc3d2b8a0553ac98af.jpg,HotSpot,1
+DJI_20220409112110_0026_T_JPG_jpg.rf.e4f86f15958d525cdcff20eb923cb98f.jpg,ByPassed,2
+DJI_20220409120959_0348_T_JPG_jpg.rf.2408b030d38ced797f2e04ef2e97c951.jpg,HotSpot,1
+DJI_20220409120959_0348_T_JPG_jpg.rf.da9f2adf713f04abfd9befd29ad5da1d.jpg,HotSpot,1
+DJI_20220409121544_0004_T_JPG_jpg.rf.443f06185bc8f330a3438e73b07e86fd.jpg,HotSpot,1
+DJI_20220409121905_0070_T_JPG_jpg.rf.fbb5eb58ce6bf8bf58eee6f215f410df.jpg,HotSpot,1
+DJI_20220409125024_0030_T_JPG_jpg.rf.6f67db7abf2bd27cdd12ca1729c8088e.jpg,ByPassed,1
+DJI_20220409125503_0120_T_JPG_jpg.rf.a542aa36c308a5a43267dd513e712665.jpg,HotSpot,1
+DJI_20220409132654_0078_T_JPG_jpg.rf.681ad757a881e813a57cd05f2713c304.jpg,StringFault,1
+DJI_20220410105840_0037_T_JPG_jpg.rf.c8f382e155dac0d2cd8383c9f5861d7b.jpg,HotSpot,1
+DJI_20220410110121_0003_T_JPG_jpg.rf.1c3dcbcf97285efaf6b521540b016376.jpg,HotSpot,1
+DJI_20220410132227_0017_T_JPG_jpg.rf.71e1effcc488903b0f003c3e2217588d.jpg,ByPassed,1
+DJI_20220410133158_0206_T_JPG_jpg.rf.eb6c3f886b82d7f4b1f860e7d1e327e6.jpg,HotSpot,1
+DJI_20220410134024_0374_T_JPG_jpg.rf.1a5a4899f39c56461ee951e972c5ee27.jpg,ByPassed,1
+DJI_20220411101237_0083_T_JPG_jpg.rf.a5f54cd5204e64aaadcc467a22199efb.jpg,ByPassed,1
+DJI_20220411101513_0134_T_JPG_jpg.rf.6c60e25b934c42b0ea4e69e49f1de589.jpg,StringFault,1
+DJI_20220411102524_0334_T_JPG_jpg.rf.11b4056807c67c593ba1c17ff593ace5.jpg,HotSpot,1
+DJI_20220411103116_0449_T_JPG_jpg.rf.725c48c6f55e40d2f0c644e2b8f2e6d5.jpg,ByPassed,1
+DJI_20220411103137_0456_T_JPG_jpg.rf.0f2979a5f39e1634f29c5a7d3666ad2d.jpg,StringFault,1
+DJI_20220411110913_0521_T_JPG_jpg.rf.f566e5f758b678815e62ab1cbd540a08.jpg,ByPassed,1
+DJI_20220411113853_0181_T_JPG_jpg.rf.c4e165c6d1aa42a6b2b9f1acd00184f2.jpg,HotSpot,1
+DJI_20220411120322_0241_T_JPG_jpg.rf.d1fc89efb0ce15d0ba48a6e6d7d079d1.jpg,HotSpot,1
+DJI_20220411121039_0086_T_JPG_jpg.rf.3242a52443da0c1c4373d43294db3694.jpg,HotSpot,1
+DJI_20220411123613_0396_T_JPG_jpg.rf.682d754155db3c7649ede69872bea17a.jpg,HotSpot,1
+DJI_20220412111021_0528_T_JPG_jpg.rf.5c0cfe88af4e5df60224fa98ec77b584.jpg,HotSpot,2
+DJI_20220412122905_0333_T_JPG_jpg.rf.81fd9b07f685884f71ae2ff68089f507.jpg,HotSpot,1
+DJI_20220412124921_0289_T_JPG_jpg.rf.6cc4afd305460942c743618cd42faa6f.jpg,HotSpot,1
+DJI_20220412134924_0330_T_JPG_jpg.rf.3c9577b0cc1c1b7a0d82fdfbb9747917.jpg,HotSpot,1
+DJI_20220412134924_0330_T_JPG_jpg.rf.b968583590fa76acc92485e8028fdd9a.jpg,HotSpot,1
+DJI_20220412135314_0405_T_JPG_jpg.rf.69e6cb6d7ba825e22471f3c135ad7af1.jpg,Diode,1
+DJI_20220412140047_0553_T_JPG_jpg.rf.2acf0c01711d59170ca4f4647fbcc45d.jpg,HotSpot,1
+DJI_20220414100451_0200_T-JPG_jpg.rf.78a9d3a6886888892cd130998f3a5b8e.jpg,ByPassed,1
+DJI_20220414103139_0094_T-JPG_jpg.rf.d24893d46e17f151a93afbde6e75d48e.jpg,Diode,1
+DJI_20220414114144_0353_T-JPG_jpg.rf.ba4eba9ed635f5dbc22e939ae8413886.jpg,ByPassed,1
+DJI_20220414115027_0071_T-JPG_jpg.rf.1639873b0079c80e583ae7d79d90d2a9.jpg,ByPassed,2
+DJI_20220414115656_0004_T-JPG_jpg.rf.c5748f7bfd9e788f13378cc2aeabd98a.jpg,ByPassed,2
+DJI_20220414120913_0442_T-JPG_jpg.rf.3f3ebe2abe9524f8c18404681bb58fc2.jpg,ByPassed,1
+DJI_20220414122301_0520_T-JPG_jpg.rf.059332ab14023b14cf6d81ac81a4424f.jpg,ByPassed,3
+DJI_20220414124052_0402_T-JPG_jpg.rf.154e3879a59f2afdc2d3b5e1741c7b90.jpg,Diode,1
+DJI_20220414124101_0405_T_JPG_jpg.rf.bbe03f7038b57ceda9d1007476de71a4.jpg,Diode,2
+DJI_20220414124316_0449_T-JPG_jpg.rf.cb324fca9d8c55d8fcc8d4197cbdf3ac.jpg,ByPassed,1
+DJI_20220414130046_0451_T-JPG_jpg.rf.372271a6262a41fa39a36d114ba8b732.jpg,ByPassed,1
+DJI_20220414131221_0013_T-JPG_jpg.rf.b7c6f0f1b1358d60f23f905669d9217b.jpg,HotSpot,1
+DJI_20220414132803_0229_T-JPG_jpg.rf.f7cdbac1a92e2b6c3da19d3e4cd5e1d2.jpg,ByPassed,1
+DJI_20220414133504_0048_T-JPG_jpg.rf.a755f1e387f0e2746665ecc39666a811.jpg,Diode,2
+DJI_20220414140334_0332_T-JPG_jpg.rf.37c3feb30f67e2c7401654584a97a92f.jpg,Diode,1
+DJI_20220429151300_0024_T_JPG_jpg.rf.450751a0f15c8543bd92c2c531513c48.jpg,ByPassed,2
+DJI_20220429151303_0025_T_JPG_jpg.rf.f3ebd9af6bce95d5ed11c8222fbfbd97.jpg,ByPassed,2
+DJI_20220429152612_0283_T_JPG_jpg.rf.a7476cebeb69de8f1e921946130b35fe.jpg,HotSpot,3
+DJI_20220429153520_0462_T_JPG_jpg.rf.0396c431f096e1e8c579712ae52221b5.jpg,HotSpot,3
+DJI_20220430145358_0043_T-JPG_jpg.rf.cd08ff22adf5000d414be6b52e843f7c.jpg,ByPassed,3
+DJI_20220430145601_0083_T-JPG_jpg.rf.d54fa47ad222bf08f7773069bb0eb790.jpg,ByPassed,1
+DJI_20220430150050_0178_T-JPG_jpg.rf.6d3258c5a27df08bc090724d3250bea0.jpg,HotSpot,4
+DJI_20220501124313_0383_T_JPG_jpg.rf.2141eb624a01fd7cd33e85abe61346ab.jpg,ByPassed,4
+DJI_20220501124623_0444_T_JPG_jpg.rf.10dc219b58c2029cfa8ad091d0715c04.jpg,Diode,3
+DJI_20220501131831_0071_T_JPG_jpg.rf.547e22681fe68c2cd03c4e6dc4c8ec9c.jpg,ByPassed,3
+DJI_20220501132220_0146_T_JPG_jpg.rf.e0c6f0dfd3f1ff6f6688c7faeb9412cc.jpg,ByPassed,5
+DJI_20220501132846_0273_T_JPG_jpg.rf.3c29f2171892883aebe0b350f94781aa.jpg,HotSpot,1
+DJI_20220501134727_0087_T_JPG_jpg.rf.4ee31fb08100477eed304ba7bdc56e45.jpg,Diode,1
+DJI_20220501135002_0138_T_JPG_jpg.rf.4e1cad6a62db4054abd746487b7f7e53.jpg,ByPassed,2
+DJI_20220605111016_0204_T_JPG_jpg.rf.8a614e0da1759a9d7ad0af59d9ad21de.jpg,HotSpot,1
+DJI_20220605115713_0272_T_JPG_jpg.rf.e3a4b4ef3d133c51f09bb491cfca9d75.jpg,HotSpot,1
+DJI_20220606105850_0058_T_JPG_jpg.rf.a9913bcf67f8e101b525eac58c14f382.jpg,HotSpot,1
+DJI_20220606110657_0218_T_JPG_jpg.rf.4a583944e672be72a6e34c69f7c240a6.jpg,Diode,1
+DJI_20220705102210_0014_T_JPG_jpg.rf.a156ba14a39b1f18ad369a1673287432.jpg,ByPassed,1
+DJI_20220705102607_0093_T_JPG_jpg.rf.4b0e70ff5cd6ebf838cfc25a4f855631.jpg,ByPassed,1
+DJI_20231221102017_0064_T__2023_12_26_12_31_59_jpg.rf.5d9f377ab8c9624c5a884223cd05d8f2.jpg,StringFault,1
+DJI_20231221110015_0033_T__2023_12_26_12_02_32_jpg.rf.2b1d8028a830f8f2fd938a248284124a.jpg,Diode,5
+DJI_20231221110531_0047_T__2023_12_26_12_06_02_jpg.rf.b081029bd929f1b381f716e889651f66.jpg,HotSpot,1
+DJI_20231221110545_0048_T__2023_12_26_12_06_15_jpg.rf.7584d2619c8f892374c52b049067d380.jpg,HotSpot,2
+Fehler-an-PV-Anlage-infrarotbild-mit-Substring_jpg.rf.ec6ba7414cf702514cbc56cae546b069.jpg,ByPassed,1
+FIT_C41_V11_DJI_20231216014710_0377_T_20231216014710_JPG_jpg.rf.df22b801694c8ca7c0742bdcc0f7dc37.jpg,StringFault,1
+FIT_C41_V11_DJI_20231216014712_0379_T_20231216014712_JPG_jpg.rf.8363b240ed9dc67595878302fd01b150.jpg,StringFault,1
+FIT_C41_V11_DJI_20231216014949_0512_T_20231216014949_JPG_jpg.rf.25f0536f65f841926633caeb43d32976.jpg,StringFault,2
+FIT_C41_V11_DJI_20231216015001_0524_T_20231216015001_JPG_jpg.rf.ad56ca113a3e167db658bf7c95038c70.jpg,HotSpot,2
+FIT_C41_V12_DJI_20231216015252_0547_T_20231216015252_JPG_jpg.rf.ee71de35780f6b31958d4011b9c21b95.jpg,StringFault,2
+img-101-_JPG_jpg.rf.b2301282443bb60238db7566cbb9edad.jpg,HotSpot,1
+img-845-_JPG_jpg.rf.0dc7d605cfc3ee80d78d8c2eef0fee85.jpg,HotSpot,5
+img-874-_JPG_jpg.rf.ce1bf478c5c10a320d6f249932e4dd7d.jpg,HotSpot,4
+img-98-_JPG_jpg.rf.b86e2a521c64c07dbeadd7ee1d9bd96e.jpg,HotSpot,5
+imgFC704A_png_jpg.rf.0c3f0ca763ef68cc6c3d418347362bf3.jpg,ByPassed,1
+imgFC727_png_jpg.rf.66d89dd8dabf2415ad41a554cdf42bc7.jpg,StringFault,1
+Infrared-Solar-Panel-Inspection_Infrared-Imaging-Services-LLC-2_jpg.rf.9f38f330c87af7383feb0bafd28b43b2.jpg,HotSpot,1
+Infrarotbild-aus-der-Luft-von-optris-PI-640-Ubersichtsbild-PV-Module-thermisch-auffallig-2-_jpg.rf.d35c4ace2e26f61cf830ecb0039bd5d5.jpg,ByPassed,5
+Infrarotbild-defekte-Solarmodule-Substrings-Brandenburg_jpg.rf.2a6c9bb178fb61a3c261e1157edb70ed.jpg,ByPassed,6
+Infrarotbild-defekte-Solarmodule-Substrings-Brandenburg_jpg.rf.dba2f54b719b34e466692c3c7d82cb40.jpg,ByPassed,6
+Infrarotbild-Luftaufnahme-defekte-Solaranlage-in-Sachsen_jpg.rf.a6e04cf5f126ae8c6d5d48bab6e58815.jpg,HotSpot,1
+inspecao-termografia_jpg.rf.da032cf7b3c0812051a5899db0e04aad.jpg,HotSpot,4
+Inspeccion-de-panelsolar_jpg.rf.76d919519bd439c84332111430808115.jpg,Diode,1
+J96_jpg.rf.ded987756a46fe0a97fa3e20c6e69fce.jpg,Diode,1
+KakaoTalk_20240327_125907445_png_jpg.rf.85cf88fdbae3932a5dc3ebb24a753d40.jpg,StringFault,1
+KakaoTalk_20240327_125907445_png_jpg.rf.c24c8f92476eb1d2cde9ca7fc2390e1b.jpg,Diode,3
+KakaoTalk_20240327_130325261_png_jpg.rf.a44695af908c3fc53d1fbe5c7c42b55d.jpg,ByPassed,4
+KakaoTalk_20240327_130512203_png_jpg.rf.92532a1f47b0b98248373a51837e04e5.jpg,HotSpot,1
+KakaoTalk_20240327_131125454_png_jpg.rf.818348fab67c9db2a6750d29e671be42.jpg,StringFault,1
+kkkkkkkkkkk_png_jpg.rf.501825271da106e0e33cc165bea295a2.jpg,Diode,14
+KOP-2741-_jpg.rf.120de0a5e8f87933bdb8e072e4590a0c.jpg,Diode,1
+KOP-2745-_jpg.rf.a70ec5858b44cc7d27e1865125d2a92d.jpg,Diode,11
+maxresdefaukklt_jpg.rf.5958390b8ad6558dfb938db61fcb0bce.jpg,StringFault,1
+maxresdefault_jpg.rf.c59ab3c29695330af1878a4e228d27d4.jpg,HotSpot,1
+Medium-Scaled-PV-IR-linked-2-copy_jpg.rf.06ec764d26ddf042cf3da5c493b9f280.jpg,ByPassed,15
+Multi-diod-in-Thermal_png_jpg.rf.976478e5dd1b05eabbf4338507e86636.jpg,Diode,1
+Multi-diode-in-Thermal_png_jpg.rf.e60d11ab21ea26ed5ae49e6dd3aa9bfe.jpg,Diode,1
+multiple-hot-cells630x445_jpg.rf.ea43ae8e470e95f259c84f99a3534d01.jpg,Diode,1
+PV-Diodeault_jpg.rf.a842a78491ed61ee3e5c0b33518626bf.jpg,ByPassed,3
+PV-field-closer_jpg.rf.3de30eb608e3ea397eecb51cea8325b0.jpg,HotSpot,4
+pvf10_test_10healthy panel_DJI_20230222130057_0210_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222130104_0215_T_000001.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222130104_0215_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222130345_0306_T_000001.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222131104_0519_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222131145_0537_T_000008.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222131409_0599_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222131547_0641_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222131601_0647_T_000001.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222132420_0852_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230222143519_0593_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223103951_0146_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223103951_0146_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223104025_0164_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223104025_0164_T_000008.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223104136_0198_T_000008.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223110843_0025_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223110907_0039_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223111320_0085_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223111330_0092_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223111345_0101_T_000001.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223112115_0371_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223112133_0382_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223112141_0385_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223113336_0636_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223113741_0746_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223114327_0891_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223114639_0970_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223114723_0987_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223114733_0991_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223114804_0006_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223115147_0154_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223115208_0167_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223115216_0173_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223115320_0207_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223120433_0454_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223120433_0454_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223123532_0394_T_000009.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223123545_0400_T_000009.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223123729_0451_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223123735_0454_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223132111_0227_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230223133839_0205_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227124046_0425_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227131150_0429_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227133536_0979_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227134524_0325_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227135343_0576_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227153415_0091_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227153522_0135_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227162830_0071_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163129_0200_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163132_0201_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163238_0239_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163238_0239_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163647_0380_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227163800_0423_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227164631_0673_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230227165344_0001_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228123135_0592_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228123317_0638_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228124416_0138_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228124906_0314_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228125836_0591_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228132550_0342_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228132925_0449_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228134045_0749_T_000010.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228134629_0846_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228134647_0853_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228135239_0995_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228142317_0441_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228145352_0242_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228145355_0243_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228150017_0445_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228154800_0188_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228154825_0202_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228155418_0389_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228155536_0427_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228155633_0454_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230228160910_0784_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302160919_0064_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302161015_0099_T_000014.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302162509_0451_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302163348_0658_T_000020.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302164314_0901_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230302164928_0983_T_000011.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308152301_0274_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308153543_0028_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308160837_0121_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308161753_0245_T_000017.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308162038_0282_T_000017.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308162110_0289_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230308162427_0333_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230315110853_0103_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230315135932_0395_T_000015.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230315163004_0067_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230325151343_0297_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407102517_0170_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407112358_0102_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407112720_0203_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407113824_0535_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407155314_0683_T_000011.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230407155314_0683_T_000012.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230411103633_0110_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230411103701_0124_T_000001.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230411104204_0276_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230411141328_0555_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230411162055_0007_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230512123118_0312_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20230513132205_0401_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114114845_0049_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114114853_0053_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114121827_0069_T_000010.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114121844_0077_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114122616_0299_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114122655_0318_T_000008.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114123125_0450_T_000007.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114123218_0476_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114123436_0544_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114124433_0064_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114125131_0269_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114125534_0388_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114125534_0388_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114130026_0531_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114131737_0292_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114132038_0381_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114133137_0034_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114133803_0223_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114134118_0319_T_000005.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114134155_0337_T_000011.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114135530_0016_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114135609_0035_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114140404_0268_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114141512_0075_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114141803_0159_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114141957_0215_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114142146_0268_T_000010.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231114142957_0509_T_000018.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231116132717_0323_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231116134751_0074_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231116162911_0388_T_000012.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121154207_0058_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121154627_0180_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121154953_0277_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121161705_0391_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121161705_0391_T_000004.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121162225_0541_T_000006.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121162721_0680_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121164449_0378_T_000002.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121164449_0378_T_000003.jpg,NEG(正常),0
+pvf10_test_10healthy panel_DJI_20231121165610_0698_T_000002.jpg,NEG(正常),0
+R14T4_jpg.rf.26e114c715c0545568c68a869b1cd8f6.jpg,Diode,1
+R14T4_jpg.rf.70dd6bb74d8322bfae95e74a333ec0fb.jpg,Diode,1
+R14T4_jpg.rf.7b7ddea4b37267701fbcbee0447922b4.jpg,Diode,1
+raptor_jpg.rf.175943273104dc146474495f4f5980e2.jpg,ByPassed,1
+reverse-polarity-3_jpg.rf.975a13b8b49d13d0c16c1e1069a1178c.jpg,StringFault,1
+reverse-polarity_jpg.rf.086d224cbd44e1012597c7ea688cb37e.jpg,Diode,2
+Reversed-Polarity-in-Thermal_png_jpg.rf.6962d3b1c9f09785527ecfabb3247e3e.jpg,Diode,6
+rgbm_jpg.rf.dd45b5f3d3dad2b71151812852797b55.jpg,ByPassed,2
+ROTO-VS-POLARIDAD-INVERTIDA-1_png_jpg.rf.62f3246a9e9b3113d0db8c691d78ac68.jpg,Diode,2
+ROTO-VSPOLARIDAD-INVERTIDA-1_png_jpg.rf.071aca227c1bdca8061af8ab90466f67.jpg,Diode,1
+SASADASD_jpg.rf.9f73b646db10b417b559d1d635da239e.jpg,Diode,5
+Screen-Shot-2021-07-14-at-10-25-13-am_png_jpg.rf.3840755780cdff766ae08710e1402ebe.jpg,HotSpot,1
+SDFAFAEFWEVDC_jpg.rf.11d1390f160fad80f4cc4db19f66c2bb.jpg,Diode,8
+SDFSDFSDVDSFSD_jpg.rf.108e5b90fa172f1b499a312bb4687703.jpg,ByPassed,5
+SDFSDFSDVDSFSVD_jpg.rf.cd02254dca4bdb1008a20ccc5f25ddb3.jpg,HotSpot,7
+sdsdadas_jpg.rf.898f7ce0398b5c99e82feb675661b986.jpg,HotSpot,4
+SFD_jpg.rf.1e7ab721e9bc7622ba9840e618771322.jpg,HotSpot,1
+sgsdgsdfv_jpg.rf.54b9fe356bc64aa697784d98d417d9f0.jpg,Diode,2
+Single-diode-i-ermal_png_jpg.rf.70ae8c327b342db7beb255857d8e9f3d.jpg,Diode,5
+Single-diode-in-Thermal_png_jpg.rf.31c08f1ebca45477ab523970a7b33e85.jpg,HotSpot,1
+skw3IR_DJI_0063_R-JPG_9_png_jpg.rf.217b389805ce022ef648ffe8021a1990.jpg,StringFault,5
+skw3IR_DJI_0069_R-JPG_9_png_jpg.rf.5b38f672acfc4c9717c5ad4459213af8.jpg,StringFault,2
+slkjhgf_jpg.rf.55275b5bcdb3c648f6085c2f90157a28.jpg,StringFault,1
+Solar-e1629192965808_png_jpg.rf.b201c3fd7e5dcc7c19f5b0a1a08c1d47.jpg,ByPassed,5
+Solar-Farm-Hot-Map-png_jpg.rf.fc9832486418ac9c3acd2e406e9703e5.jpg,StringFault,8
+Solar-Farm-HotMap-png_jpg.rf.879c2276ab80230fcb14902219d37a9d.jpg,StringFault,1
+Solar-panels-PID_png_jpg.rf.99882195895ca21efd82f0c00ac0c202.jpg,StringFault,1
+solar_color100_jpg.rf.897f74cad5337f63d397a7f6f1535bea.jpg,ByPassed,1
+solar_color1146_jpg.rf.cc3df24c1605edbcedfb0b99feff41a6.jpg,Diode,1
+solar_color1149_jpg.rf.478dd132d40a8ec7b00384a82579381c.jpg,Diode,1
+solar_color12_jpg.rf.bbad7caed34a705b91326bfcbd192741.jpg,HotSpot,7
+solar_color1494_png_jpg.rf.d2b0d73d61fe9c455359c124c4e31b53.jpg,HotSpot,7
+solar_color1496_png_jpg.rf.81d1ecb666e35337df0d7ca34085d4c3.jpg,HotSpot,6
+solar_color15_jpg.rf.1bced0ed78ff0c997b9b273a51f67bcf.jpg,HotSpot,16
+solar_color164_jpg.rf.495b5ec43b0951d1dd4c43f21c4b7ce8.jpg,ByPassed,2
+solar_color175_png_jpg.rf.28612733b52291a7039a81a302aa581b.jpg,HotSpot,3
+solar_color179_png_jpg.rf.58f747aa6e9c1f2ce85e8ce46fd6a40c.jpg,ByPassed,2
+solar_color18_jpg.rf.581369cf295e352825ccfbd8d8412701.jpg,HotSpot,10
+solar_color195_jpg.rf.e56d6a5642e5df4884bb3509c106905c.jpg,Diode,1
+solar_color19_jpg.rf.845c14acbf823dc6802063d72168e95d.jpg,Diode,3
+solar_color223_jpg.rf.f35a7a551910d853edabd99188e3a03b.jpg,Diode,2
+solar_color265_jpg.rf.880948763741b355f8c1dcefb2f4185f.jpg,HotSpot,1
+solar_color300_jpg.rf.40cb073c4d0a2cc1e343aec656163f75.jpg,ByPassed,1
+solar_color32_jpg.rf.dd945c5b4907bbd0ce0b8309e5427171.jpg,Diode,7
+solar_color47_jpg.rf.2ab88e5bbe2ffaebcac0ff89863bfa5d.jpg,HotSpot,1
+solar_color5_jpg.rf.a056cecae78147daf91ccfa2105da485.jpg,HotSpot,7
+solar_color72_jpg.rf.0bdf7f63103b71f011730b7a3f386314.jpg,ByPassed,1
+solar_color84_jpg.rf.02f7f9069cf94e260d5e7525f9714361.jpg,ByPassed,1
+solar_color87_jpg.rf.18ef259a8326f037c4fdf6d8f73b0f13.jpg,HotSpot,6
+solar_color88_jpg.rf.364927b53b68f2a1272daa563b9488d1.jpg,HotSpot,1
+solar_color896_jpg.rf.162d18ade88dcd10ff3d7f1b5b240dab.jpg,Diode,3
+string-5-_png_jpg.rf.d8473bea5b4e4da5fc12e8c6e0006e95.jpg,StringFault,1
+String-ANOMALIES1_jpg.rf.962b96afe1f64359e26acd38b7694021.jpg,StringFault,4
+String_Panneaux_jpg.rf.1fb05c775419cd425fe2912140a5ec66.jpg,StringFault,1
+sUSBExpofig01_jpg.rf.222a251bbf2953da87614caf36743ba9.jpg,StringFault,1
+TERMOGRAFIA-COM-DRONES1_jpg.rf.f2b2adab9a2c695abbb9a82c17f753bb.jpg,ByPassed,4
+Termografia_jpg.rf.2f01c48f7848dc63d971aec4f09f6b0f.jpg,ByPassed,1
+Test_Solar_Image_001_JPG_jpg.rf.e84a635bebbea7af8dce40bfd3dbded0.jpg,HotSpot,2
+Test_Solar_Image_003_JPG_jpg.rf.63f81eac395e85eee00864b32e44a67a.jpg,HotSpot,1
+Test_Solar_Image_004_JPG_jpg.rf.922be69fbc89823e523257421805ad5c.jpg,HotSpot,1
+Test_Solar_Image_007_JPG_jpg.rf.1a8cdace7c34c0faeb6a1926d2b5b6e4.jpg,HotSpot,1
+Test_Solar_Image_008_JPG_jpg.rf.1875eaafd8f951a0d9e135f2c85a2c5c.jpg,HotSpot,1
+Test_Solar_Image_010_JPG_jpg.rf.da4ed96a8673c562ec0714b30052f105.jpg,HotSpot,1
+Test_Solar_Image_038_JPG_jpg.rf.844632f8abaf760c0135c21640ba10de.jpg,HotSpot,1
+Test_Solar_Image_060_JPG_jpg.rf.457e0d881f810fd084fd28fe8d187387.jpg,HotSpot,2
+Test_Solar_Image_063_JPG_jpg.rf.54af810677ba2fe6f715e8a3e3b07f41.jpg,HotSpot,1
+Test_Solar_Image_064_JPG_jpg.rf.52860e7e82f08820915f9e1b2677ec54.jpg,HotSpot,2
+Test_Solar_Image_065_JPG_jpg.rf.f7c13228da0d9dfaf2bc09411fa5cad0.jpg,HotSpot,1
+Test_Solar_Image_069_JPG_jpg.rf.bc6e1ad25b245600d70d379403d8aa65.jpg,HotSpot,1
+Test_Solar_Image_082_JPG_jpg.rf.7c7af148a5ede15c84d22a979795f19b.jpg,Diode,1
+Test_Solar_Image_084_JPG_jpg.rf.8df63af6cad20dacebf575d6de1233a3.jpg,HotSpot,1
+Test_Solar_Image_205_JPG_jpg.rf.a92a2e71a2c1a4ade21d4e148ba2e908.jpg,HotSpot,13
+Test_Solar_Image_206_JPG_jpg.rf.1f5497655add5de322cb678832e9d9db.jpg,HotSpot,14
+Test_Solar_Image_215_JPG_jpg.rf.3006f8af45306c2ca17df2827ae69b42.jpg,HotSpot,4
+Test_Solar_Image_216_JPG_jpg.rf.9ea954a17e4142758a20eadca010faa4.jpg,HotSpot,9
+Test_Solar_Image_217_JPG_jpg.rf.fbdae2f4e9bb231e2ebd7799942a286d.jpg,HotSpot,7
+Test_Solar_Image_230_JPG_jpg.rf.a46dd2539e1cacb044f48bfb3349dd3b.jpg,HotSpot,6
+Test_Solar_Image_232_JPG_jpg.rf.a9919bb4f690058295dbf06e77cef1e1.jpg,HotSpot,7
+Test_Solar_Image_235_JPG_jpg.rf.d646ea251b9c0e4259d428ddca3c94ea.jpg,HotSpot,3
+Test_Solar_Image_236_JPG_jpg.rf.b4d66daf0ba0ae0b6a6149e02202a2f1.jpg,HotSpot,3
+Test_Solar_Image_238_JPG_jpg.rf.16856ff78db44966b3d2a1c7427d8ffc.jpg,HotSpot,8
+Test_Solar_Image_239_JPG_jpg.rf.0351dc6b8bd899c807f891c46fd4cae6.jpg,HotSpot,9
+Test_Solar_Image_239_JPG_jpg.rf.fb5d1097fa935660f146ba11740e2524.jpg,HotSpot,5
+Test_Solar_Image_240_JPG_jpg.rf.f621635b00e0921ac1b05174dbb7ae39.jpg,HotSpot,12
+Test_Solar_Image_241_JPG_jpg.rf.3af7fec3708f6ecc67cf2669d00cc482.jpg,ByPassed,13
+Test_Solar_Image_243_JPG_jpg.rf.f4789240b0f0730a1aee54ad71985392.jpg,HotSpot,2
+Test_Solar_Image_247_JPG_jpg.rf.3ae08da1a9448d2d37b18ce0d06de2f0.jpg,HotSpot,7
+Test_Solar_Image_249_JPG_jpg.rf.b676b6cdbf73518745d7e7e9f60a102d.jpg,HotSpot,1
+Test_Solar_Image_251_JPG_jpg.rf.c1bed7f293feb6728511caa0dc2313c7.jpg,HotSpot,3
+Test_Solar_Image_254_JPG_jpg.rf.c7af9253f00242de11d094c471b15530.jpg,HotSpot,5
+Test_Solar_Image_255_JPG_jpg.rf.7e3d4bb928a01905ddf8b5b729b4f094.jpg,HotSpot,3
+Test_Solar_Image_261_JPG_jpg.rf.0e89f5b883bc50e459435a712049a196.jpg,HotSpot,2
+Test_Solar_Image_263_JPG_jpg.rf.bb76315d9e2f2d5152d4957fb00da9d0.jpg,HotSpot,3
+Test_Solar_Image_264_JPG_jpg.rf.e6c99824ad5fd9d9b54bc6cbcdf0af2f.jpg,Diode,9
+Test_Solar_Image_265_JPG_jpg.rf.7747b21b3cce7cf5552259b4946a81f3.jpg,HotSpot,4
+Test_Solar_Image_270_JPG_jpg.rf.50ccc8bb33fd1c2f339e4e8ec38eccf8.jpg,HotSpot,6
+Test_Solar_Image_272_JPG_jpg.rf.05c947ccd6e8f08f7bf00df61c4d2c23.jpg,HotSpot,6
+Test_Solar_Image_278_JPG_jpg.rf.2f62f3380a34fe8370a0560a493726c0.jpg,HotSpot,2
+Test_Solar_Image_278_JPG_jpg.rf.2fb924d3499e56332fbb029d59b41267.jpg,HotSpot,1
+Test_Solar_Image_279_JPG_jpg.rf.05cdc6b52c8d191dea14d5b849cc305a.jpg,HotSpot,3
+Test_Solar_Image_280_JPG_jpg.rf.c7cb96d90a8796b9216b1a5272200462.jpg,HotSpot,2
+Test_Solar_Image_281_JPG_jpg.rf.5d61424113a6aaca59507d06affd7fb1.jpg,HotSpot,2
+thermal2110_jpg.rf.ed7a87b1c4f801cb686c2567266c4642.jpg,HotSpot,2
+thermal2245_jpg.rf.c1d081686922dc5aa04607540278bc22.jpg,HotSpot,1
+thermal2385_jpg.rf.bcda1d0a58c1ebbb1357b954486f944e.jpg,Diode,1
+thermal269_jpg.rf.c36d0868cb6d9233fab2fb66a4a222b8.jpg,ByPassed,2
+thermal333_jpg.rf.63bd4f3394a627de62d2cb862919b1b2.jpg,ByPassed,2
+thermal460_jpg.rf.b3be18d192f88ade42bd3ed990e3e198.jpg,ByPassed,3
+upm3-13-_jpg.rf.4d5a9bb77ba18c98381d07e9dbe714f4.jpg,HotSpot,1
+zbc100IR_DJI_0337_R-JPG_4_png_jpg.rf.f6a6695a64a0bc5e53993ce45e250d19.jpg,StringFault,1
+zbc100IR_DJI_0349_R-JPG_4_png_jpg.rf.4d92a69c44298b323ac18a47142a7169.jpg,HotSpot,3
+zbc100IR_DJI_0403_R-JPG_5_png_jpg.rf.5a9a51afbb87f3f59b0e8e8a81a35152.jpg,StringFault,1
+zbc101IR_DJI_0336_R-JPG_5_png_jpg.rf.db2c7a197d54f651060790bf6e50d6f0.jpg,HotSpot,3
+zbc101IR_DJI_0406_R-png_2_png_jpg.rf.65bdba413c8c8c13e76ca1cce37af49a.jpg,HotSpot,1

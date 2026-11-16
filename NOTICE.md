@@ -61,6 +61,20 @@ Ultralytics 官方对许可的表述要点：
 
 ---
 
+## 被评测的第三方模型
+
+`cases/third_party/` 中的复算案例涉及以下第三方模型。本仓库**只发布评测结果与报告，不分发任何模型权重**；权重须由使用者自行从作者仓库获取。
+
+| 模型 | 来源 | 许可 | 署名要求 |
+|---|---|---|---|
+| SolarPanelsDefectDetector（YOLOv9） | `github.com/P-Darabi/SolarPanelsDefectDetector` | MIT | **MIT 许可要求保留版权与许可声明**，引用评测结果时须署名原作者 |
+| SolarVulture anomaly_detection | `github.com/Ramykaz/Solarvulture_oasis` | **未声明**（license 字段为空） | 法律上默认保留所有权利；商用前须取得作者书面授权 |
+| Skytroll SolarPanelDefectDetection（YOLO26） | `github.com/Skytroll914/SolarPanelDefectDetection_YOLO` | **未声明**（license 字段为空） | 同上；该模型为可见光 RGB，仅作跨模态对照 |
+
+评测结论见 `cases/third_party/第三方复算报告_完整版.pdf`。该结论仅针对本项目验证集与测试时的权重版本，不构成对模型作者或项目质量的评价。
+
+---
+
 ## 引用本项目
 
 若你在研究或产品中使用了本项目的指标定义或评测协议，建议引用：

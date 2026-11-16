@@ -1,0 +1,1400 @@
+{
+  "protocol": "PV-IRBench v0.1",
+  "dataset": "solar_panel_v3_clean/valid",
+  "n_samples": 503,
+  "n_negative": 151,
+  "n_positive": 352,
+  "sweep": [
+    0.5,
+    0.4,
+    0.3,
+    0.25,
+    0.1,
+    0.05,
+    0.01
+  ],
+  "models": {
+    "self_v8": {
+      "id": "self_v8",
+      "label": "自研 YOLOv8（基准）",
+      "weights": "D:\\ZXT\\Solar_Panel\\competition\\runs\\final\\weights\\best.pt",
+      "source": "本项目自研",
+      "license": "私有（对照基准）",
+      "modality": "红外",
+      "note": "4 类，同域验证集训练",
+      "n_classes": 4,
+      "class_names": {
+        "0": "ByPassed",
+        "1": "Diode",
+        "2": "HotSpot",
+        "3": "StringFault"
+      },
+      "curve": [
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.7983,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 281,
+            "miss": 71
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 135,
+              "miss": 19,
+              "recall": 0.8766
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 88,
+              "miss": 13,
+              "recall": 0.8713
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 48,
+              "miss": 17,
+              "recall": 0.7385
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 10,
+              "miss": 22,
+              "recall": 0.3125
+            }
+          },
+          "conf": 0.5
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.8636,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 304,
+            "miss": 48
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 143,
+              "miss": 11,
+              "recall": 0.9286
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 93,
+              "miss": 8,
+              "recall": 0.9208
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 56,
+              "miss": 9,
+              "recall": 0.8615
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 12,
+              "miss": 20,
+              "recall": 0.375
+            }
+          },
+          "conf": 0.4
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.9148,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 322,
+            "miss": 30
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 148,
+              "miss": 6,
+              "recall": 0.961
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 97,
+              "miss": 4,
+              "recall": 0.9604
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 60,
+              "miss": 5,
+              "recall": 0.9231
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 17,
+              "miss": 15,
+              "recall": 0.5312
+            }
+          },
+          "conf": 0.3
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.9347,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 329,
+            "miss": 23
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 151,
+              "miss": 3,
+              "recall": 0.9805
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 97,
+              "miss": 4,
+              "recall": 0.9604
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 63,
+              "miss": 2,
+              "recall": 0.9692
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 18,
+              "miss": 14,
+              "recall": 0.5625
+            }
+          },
+          "conf": 0.25
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.9744,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 343,
+            "miss": 9
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 152,
+              "miss": 2,
+              "recall": 0.987
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 100,
+              "miss": 1,
+              "recall": 0.9901
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 27,
+              "miss": 5,
+              "recall": 0.8438
+            }
+          },
+          "conf": 0.1
+        },
+        {
+          "FAR": 0.0066,
+          "fp_boxes_per_1000": 6.6,
+          "image_level_recall": 0.9773,
+          "negative": {
+            "total": 151,
+            "fp": 1,
+            "tn": 150
+          },
+          "positive": {
+            "total": 352,
+            "hit": 344,
+            "miss": 8
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 152,
+              "miss": 2,
+              "recall": 0.987
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 101,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 27,
+              "miss": 5,
+              "recall": 0.8438
+            }
+          },
+          "conf": 0.05
+        },
+        {
+          "FAR": 0.0265,
+          "fp_boxes_per_1000": 33.1,
+          "image_level_recall": 0.9886,
+          "negative": {
+            "total": 151,
+            "fp": 4,
+            "tn": 147
+          },
+          "positive": {
+            "total": 352,
+            "hit": 348,
+            "miss": 4
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 154,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 101,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 29,
+              "miss": 3,
+              "recall": 0.9062
+            }
+          },
+          "conf": 0.01
+        }
+      ],
+      "best_recall_at_zero_far": {
+        "FAR": 0.0,
+        "fp_boxes_per_1000": 0.0,
+        "image_level_recall": 0.9744,
+        "negative": {
+          "total": 151,
+          "fp": 0,
+          "tn": 151
+        },
+        "positive": {
+          "total": 352,
+          "hit": 343,
+          "miss": 9
+        },
+        "per_class": {
+          "HotSpot": {
+            "total": 154,
+            "hit": 152,
+            "miss": 2,
+            "recall": 0.987
+          },
+          "ByPassed": {
+            "total": 101,
+            "hit": 100,
+            "miss": 1,
+            "recall": 0.9901
+          },
+          "Diode": {
+            "total": 65,
+            "hit": 64,
+            "miss": 1,
+            "recall": 0.9846
+          },
+          "StringFault": {
+            "total": 32,
+            "hit": 27,
+            "miss": 5,
+            "recall": 0.8438
+          }
+        },
+        "conf": 0.1
+      }
+    },
+    "pd_v9": {
+      "id": "pd_v9",
+      "label": "SolarPanelsDefectDetector YOLOv9",
+      "weights": "D:\\ZXT\\Solar_Panel\\opensource_model\\Th_G_v9.pt",
+      "source": "github.com/P-Darabi/SolarPanelsDefectDetector",
+      "license": "MIT（可商用，需署名）",
+      "modality": "红外灰度",
+      "note": "自报 mAP50 78%；README 称 8 类，权重实际 9 类",
+      "n_classes": 9,
+      "class_names": {
+        "0": "MultiByPassed",
+        "1": "MultiDiode",
+        "2": "MultiHotSpot",
+        "3": "OpenPV",
+        "4": "SingleByPassed",
+        "5": "SingleDiode",
+        "6": "SingleHotSpot",
+        "7": "StringOpenCircuit",
+        "8": "StringReversedPolarity"
+      },
+      "curve": [
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.8722,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 307,
+            "miss": 45
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 140,
+              "miss": 14,
+              "recall": 0.9091
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 88,
+              "miss": 13,
+              "recall": 0.8713
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 60,
+              "miss": 5,
+              "recall": 0.9231
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 19,
+              "miss": 13,
+              "recall": 0.5938
+            }
+          },
+          "conf": 0.5
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.9006,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 317,
+            "miss": 35
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 144,
+              "miss": 10,
+              "recall": 0.9351
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 91,
+              "miss": 10,
+              "recall": 0.901
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 61,
+              "miss": 4,
+              "recall": 0.9385
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 21,
+              "miss": 11,
+              "recall": 0.6562
+            }
+          },
+          "conf": 0.4
+        },
+        {
+          "FAR": 0.0132,
+          "fp_boxes_per_1000": 13.2,
+          "image_level_recall": 0.929,
+          "negative": {
+            "total": 151,
+            "fp": 2,
+            "tn": 149
+          },
+          "positive": {
+            "total": 352,
+            "hit": 327,
+            "miss": 25
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 146,
+              "miss": 8,
+              "recall": 0.9481
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 93,
+              "miss": 8,
+              "recall": 0.9208
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 24,
+              "miss": 8,
+              "recall": 0.75
+            }
+          },
+          "conf": 0.3
+        },
+        {
+          "FAR": 0.0132,
+          "fp_boxes_per_1000": 13.2,
+          "image_level_recall": 0.9403,
+          "negative": {
+            "total": 151,
+            "fp": 2,
+            "tn": 149
+          },
+          "positive": {
+            "total": 352,
+            "hit": 331,
+            "miss": 21
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 149,
+              "miss": 5,
+              "recall": 0.9675
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 94,
+              "miss": 7,
+              "recall": 0.9307
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 24,
+              "miss": 8,
+              "recall": 0.75
+            }
+          },
+          "conf": 0.25
+        },
+        {
+          "FAR": 0.543,
+          "fp_boxes_per_1000": 576.2,
+          "image_level_recall": 0.9744,
+          "negative": {
+            "total": 151,
+            "fp": 82,
+            "tn": 69
+          },
+          "positive": {
+            "total": 352,
+            "hit": 343,
+            "miss": 9
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 151,
+              "miss": 3,
+              "recall": 0.9805
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 99,
+              "miss": 2,
+              "recall": 0.9802
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 29,
+              "miss": 3,
+              "recall": 0.9062
+            }
+          },
+          "conf": 0.1
+        },
+        {
+          "FAR": 0.7483,
+          "fp_boxes_per_1000": 1198.7,
+          "image_level_recall": 0.983,
+          "negative": {
+            "total": 151,
+            "fp": 113,
+            "tn": 38
+          },
+          "positive": {
+            "total": 352,
+            "hit": 346,
+            "miss": 6
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 152,
+              "miss": 2,
+              "recall": 0.987
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 99,
+              "miss": 2,
+              "recall": 0.9802
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 65,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 30,
+              "miss": 2,
+              "recall": 0.9375
+            }
+          },
+          "conf": 0.05
+        },
+        {
+          "FAR": 0.9801,
+          "fp_boxes_per_1000": 4304.6,
+          "image_level_recall": 0.9943,
+          "negative": {
+            "total": 151,
+            "fp": 148,
+            "tn": 3
+          },
+          "positive": {
+            "total": 352,
+            "hit": 350,
+            "miss": 2
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 154,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 99,
+              "miss": 2,
+              "recall": 0.9802
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 65,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 32,
+              "miss": 0,
+              "recall": 1.0
+            }
+          },
+          "conf": 0.01
+        }
+      ],
+      "best_recall_at_zero_far": {
+        "FAR": 0.0,
+        "fp_boxes_per_1000": 0.0,
+        "image_level_recall": 0.9006,
+        "negative": {
+          "total": 151,
+          "fp": 0,
+          "tn": 151
+        },
+        "positive": {
+          "total": 352,
+          "hit": 317,
+          "miss": 35
+        },
+        "per_class": {
+          "HotSpot": {
+            "total": 154,
+            "hit": 144,
+            "miss": 10,
+            "recall": 0.9351
+          },
+          "ByPassed": {
+            "total": 101,
+            "hit": 91,
+            "miss": 10,
+            "recall": 0.901
+          },
+          "Diode": {
+            "total": 65,
+            "hit": 61,
+            "miss": 4,
+            "recall": 0.9385
+          },
+          "StringFault": {
+            "total": 32,
+            "hit": 21,
+            "miss": 11,
+            "recall": 0.6562
+          }
+        },
+        "conf": 0.4
+      }
+    },
+    "solarvulture": {
+      "id": "solarvulture",
+      "label": "SolarVulture anomaly_detection",
+      "weights": "D:\\ZXT\\Solar_Panel\\opensource_model\\solarvulture_anomaly.pt",
+      "source": "github.com/Ramykaz/Solarvulture_oasis",
+      "license": "未声明（GitHub license=null）",
+      "modality": "红外",
+      "note": "5 类；作者注明类别不均衡、部分类样本 <20",
+      "n_classes": 5,
+      "class_names": {
+        "0": "Bypass Diode fault",
+        "1": "Hotspots",
+        "2": "Panel Failure",
+        "3": "Single Hotspot",
+        "4": "String Fault"
+      },
+      "curve": [
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.6648,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 234,
+            "miss": 118
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 107,
+              "miss": 47,
+              "recall": 0.6948
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 68,
+              "miss": 33,
+              "recall": 0.6733
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 52,
+              "miss": 13,
+              "recall": 0.8
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 7,
+              "miss": 25,
+              "recall": 0.2188
+            }
+          },
+          "conf": 0.5
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.7926,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 279,
+            "miss": 73
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 135,
+              "miss": 19,
+              "recall": 0.8766
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 79,
+              "miss": 22,
+              "recall": 0.7822
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 56,
+              "miss": 9,
+              "recall": 0.8615
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 9,
+              "miss": 23,
+              "recall": 0.2812
+            }
+          },
+          "conf": 0.4
+        },
+        {
+          "FAR": 0.0,
+          "fp_boxes_per_1000": 0.0,
+          "image_level_recall": 0.8551,
+          "negative": {
+            "total": 151,
+            "fp": 0,
+            "tn": 151
+          },
+          "positive": {
+            "total": 352,
+            "hit": 301,
+            "miss": 51
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 144,
+              "miss": 10,
+              "recall": 0.9351
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 86,
+              "miss": 15,
+              "recall": 0.8515
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 59,
+              "miss": 6,
+              "recall": 0.9077
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 12,
+              "miss": 20,
+              "recall": 0.375
+            }
+          },
+          "conf": 0.3
+        },
+        {
+          "FAR": 0.0066,
+          "fp_boxes_per_1000": 13.2,
+          "image_level_recall": 0.8693,
+          "negative": {
+            "total": 151,
+            "fp": 1,
+            "tn": 150
+          },
+          "positive": {
+            "total": 352,
+            "hit": 306,
+            "miss": 46
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 146,
+              "miss": 8,
+              "recall": 0.9481
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 87,
+              "miss": 14,
+              "recall": 0.8614
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 61,
+              "miss": 4,
+              "recall": 0.9385
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 12,
+              "miss": 20,
+              "recall": 0.375
+            }
+          },
+          "conf": 0.25
+        },
+        {
+          "FAR": 0.0795,
+          "fp_boxes_per_1000": 192.1,
+          "image_level_recall": 0.929,
+          "negative": {
+            "total": 151,
+            "fp": 12,
+            "tn": 139
+          },
+          "positive": {
+            "total": 352,
+            "hit": 327,
+            "miss": 25
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 152,
+              "miss": 2,
+              "recall": 0.987
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 95,
+              "miss": 6,
+              "recall": 0.9406
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 61,
+              "miss": 4,
+              "recall": 0.9385
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 19,
+              "miss": 13,
+              "recall": 0.5938
+            }
+          },
+          "conf": 0.1
+        },
+        {
+          "FAR": 0.106,
+          "fp_boxes_per_1000": 483.4,
+          "image_level_recall": 0.9517,
+          "negative": {
+            "total": 151,
+            "fp": 16,
+            "tn": 135
+          },
+          "positive": {
+            "total": 352,
+            "hit": 335,
+            "miss": 17
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 153,
+              "miss": 1,
+              "recall": 0.9935
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 97,
+              "miss": 4,
+              "recall": 0.9604
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 62,
+              "miss": 3,
+              "recall": 0.9538
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 23,
+              "miss": 9,
+              "recall": 0.7188
+            }
+          },
+          "conf": 0.05
+        },
+        {
+          "FAR": 0.3113,
+          "fp_boxes_per_1000": 2099.3,
+          "image_level_recall": 0.9773,
+          "negative": {
+            "total": 151,
+            "fp": 47,
+            "tn": 104
+          },
+          "positive": {
+            "total": 352,
+            "hit": 344,
+            "miss": 8
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 154,
+              "miss": 0,
+              "recall": 1.0
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 99,
+              "miss": 2,
+              "recall": 0.9802
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 64,
+              "miss": 1,
+              "recall": 0.9846
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 27,
+              "miss": 5,
+              "recall": 0.8438
+            }
+          },
+          "conf": 0.01
+        }
+      ],
+      "best_recall_at_zero_far": {
+        "FAR": 0.0,
+        "fp_boxes_per_1000": 0.0,
+        "image_level_recall": 0.8551,
+        "negative": {
+          "total": 151,
+          "fp": 0,
+          "tn": 151
+        },
+        "positive": {
+          "total": 352,
+          "hit": 301,
+          "miss": 51
+        },
+        "per_class": {
+          "HotSpot": {
+            "total": 154,
+            "hit": 144,
+            "miss": 10,
+            "recall": 0.9351
+          },
+          "ByPassed": {
+            "total": 101,
+            "hit": 86,
+            "miss": 15,
+            "recall": 0.8515
+          },
+          "Diode": {
+            "total": 65,
+            "hit": 59,
+            "miss": 6,
+            "recall": 0.9077
+          },
+          "StringFault": {
+            "total": 32,
+            "hit": 12,
+            "miss": 20,
+            "recall": 0.375
+          }
+        },
+        "conf": 0.3
+      }
+    },
+    "skytroll": {
+      "id": "skytroll",
+      "label": "SolarPanelDefectDetection YOLO26",
+      "weights": "D:\\ZXT\\Solar_Panel\\opensource_model\\skytroll_best.pt",
+      "source": "github.com/Skytroll914/SolarPanelDefectDetection_YOLO",
+      "license": "未声明（GitHub license=null）",
+      "modality": "可见光 RGB",
+      "note": "5 类含显式 Non Defective；跨模态对照组",
+      "n_classes": 5,
+      "class_names": {
+        "0": "Bird Drop",
+        "1": "Dusty",
+        "2": "Electrical Damage",
+        "3": "Non Defective",
+        "4": "Physical Damage"
+      },
+      "curve": [
+        {
+          "FAR": 0.649,
+          "fp_boxes_per_1000": 688.7,
+          "image_level_recall": 0.233,
+          "negative": {
+            "total": 151,
+            "fp": 98,
+            "tn": 53
+          },
+          "positive": {
+            "total": 352,
+            "hit": 82,
+            "miss": 270
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 39,
+              "miss": 115,
+              "recall": 0.2532
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 20,
+              "miss": 81,
+              "recall": 0.198
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 18,
+              "miss": 47,
+              "recall": 0.2769
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 5,
+              "miss": 27,
+              "recall": 0.1562
+            }
+          },
+          "conf": 0.5
+        },
+        {
+          "FAR": 0.7947,
+          "fp_boxes_per_1000": 920.5,
+          "image_level_recall": 0.3068,
+          "negative": {
+            "total": 151,
+            "fp": 120,
+            "tn": 31
+          },
+          "positive": {
+            "total": 352,
+            "hit": 108,
+            "miss": 244
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 56,
+              "miss": 98,
+              "recall": 0.3636
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 23,
+              "miss": 78,
+              "recall": 0.2277
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 23,
+              "miss": 42,
+              "recall": 0.3538
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 6,
+              "miss": 26,
+              "recall": 0.1875
+            }
+          },
+          "conf": 0.4
+        },
+        {
+          "FAR": 0.9073,
+          "fp_boxes_per_1000": 1165.6,
+          "image_level_recall": 0.3864,
+          "negative": {
+            "total": 151,
+            "fp": 137,
+            "tn": 14
+          },
+          "positive": {
+            "total": 352,
+            "hit": 136,
+            "miss": 216
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 72,
+              "miss": 82,
+              "recall": 0.4675
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 28,
+              "miss": 73,
+              "recall": 0.2772
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 29,
+              "miss": 36,
+              "recall": 0.4462
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 7,
+              "miss": 25,
+              "recall": 0.2188
+            }
+          },
+          "conf": 0.3
+        },
+        {
+          "FAR": 0.947,
+          "fp_boxes_per_1000": 1390.7,
+          "image_level_recall": 0.4375,
+          "negative": {
+            "total": 151,
+            "fp": 143,
+            "tn": 8
+          },
+          "positive": {
+            "total": 352,
+            "hit": 154,
+            "miss": 198
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 83,
+              "miss": 71,
+              "recall": 0.539
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 30,
+              "miss": 71,
+              "recall": 0.297
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 32,
+              "miss": 33,
+              "recall": 0.4923
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 9,
+              "miss": 23,
+              "recall": 0.2812
+            }
+          },
+          "conf": 0.25
+        },
+        {
+          "FAR": 1.0,
+          "fp_boxes_per_1000": 2231.8,
+          "image_level_recall": 0.5682,
+          "negative": {
+            "total": 151,
+            "fp": 151,
+            "tn": 0
+          },
+          "positive": {
+            "total": 352,
+            "hit": 200,
+            "miss": 152
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 101,
+              "miss": 53,
+              "recall": 0.6558
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 44,
+              "miss": 57,
+              "recall": 0.4356
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 42,
+              "miss": 23,
+              "recall": 0.6462
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 13,
+              "miss": 19,
+              "recall": 0.4062
+            }
+          },
+          "conf": 0.1
+        },
+        {
+          "FAR": 1.0,
+          "fp_boxes_per_1000": 2794.7,
+          "image_level_recall": 0.6932,
+          "negative": {
+            "total": 151,
+            "fp": 151,
+            "tn": 0
+          },
+          "positive": {
+            "total": 352,
+            "hit": 244,
+            "miss": 108
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 116,
+              "miss": 38,
+              "recall": 0.7532
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 57,
+              "miss": 44,
+              "recall": 0.5644
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 53,
+              "miss": 12,
+              "recall": 0.8154
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 18,
+              "miss": 14,
+              "recall": 0.5625
+            }
+          },
+          "conf": 0.05
+        },
+        {
+          "FAR": 1.0,
+          "fp_boxes_per_1000": 4165.6,
+          "image_level_recall": 0.8551,
+          "negative": {
+            "total": 151,
+            "fp": 151,
+            "tn": 0
+          },
+          "positive": {
+            "total": 352,
+            "hit": 301,
+            "miss": 51
+          },
+          "per_class": {
+            "HotSpot": {
+              "total": 154,
+              "hit": 137,
+              "miss": 17,
+              "recall": 0.8896
+            },
+            "ByPassed": {
+              "total": 101,
+              "hit": 82,
+              "miss": 19,
+              "recall": 0.8119
+            },
+            "Diode": {
+              "total": 65,
+              "hit": 61,
+              "miss": 4,
+              "recall": 0.9385
+            },
+            "StringFault": {
+              "total": 32,
+              "hit": 21,
+              "miss": 11,
+              "recall": 0.6562
+            }
+          },
+          "conf": 0.01
+        }
+      ],
+      "best_recall_at_zero_far": null
+    }
+  }
+}

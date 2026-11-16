@@ -100,8 +100,17 @@ pv-irbench/
 ├── results/
 │   ├── baseline_v0.1.md   首个基线结果详单
 │   └── eval_result.json   评测原始输出
+├── cases/
+│   └── third_party/       第三方模型同尺复算案例（数据/脚本/报告，不含权重）
+│       ├── README.md
+│       ├── recompute.py
+│       ├── batch_result.json
+│       ├── valid_manifest.csv
+│       ├── 第三方复算报告_简洁版.pdf
+│       └── 第三方复算报告_完整版.pdf
 └── article/
-    └── 我们复算了自己的光伏AI巡检指标.md   公开复盘文章
+    ├── 我们复算了自己的光伏AI巡检指标.md / .html   首篇复盘文章
+    └── 我们拿四款光伏检测模型做了一次同尺复算.md / .html   第二篇
 ```
 
 ---
